@@ -1,0 +1,23 @@
+{
+  "name": "@varandas/expand-url",
+  "version": "1.0.0",
+  "description": "A Deno library for expanding shortened URLs to their full form",
+  "tasks": {
+    "dev": "deno run --watch src/expand_url.ts",
+    "test": "deno test --allow-net",
+    "check": "deno check mod.ts src/**/*.ts",
+    "example": "deno run --allow-net examples/basic_usage.ts"
+  },
+  "publish": {
+    "include": [
+      "mod.ts",
+      "src/**/*",
+      "examples/**/*",
+      "LICENSE",
+      "README.md"
+    ]
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1"
+  }
+}

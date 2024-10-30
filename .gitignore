@@ -1,0 +1,23 @@
+# Deno specific
+.deno/
+deno.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS specific
+.DS_Store
+Thumbs.db
